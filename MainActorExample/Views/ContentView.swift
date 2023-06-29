@@ -9,13 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        AsyncImageView(url: URL(string: "https://cdn.asianmma.com/wp-content/uploads/2022/04/Khamzat-Chimaev-2.jpg")!)
     }
 }
 
